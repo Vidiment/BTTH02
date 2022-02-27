@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav .nav-link{
+    color: black !important;
+    text-transform: uppercase;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #0b249e !important;
+}
+
+.navbar-nav>li:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+}
+
+.navbar-nav>li:hover .dropdown-item{
+    border-bottom: 1px solid #707073;
+}
+
+.dropdown-item{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+}
+
+.navbar-nav  .dropdown-item:hover{
+    color:#0b249e !important;
+}
+
+.navbar-brand img{
+    max-width: 80%;
+}
+
+.container-fluid>h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #0b249e;
+}
+
+.heading-title{
+    text-align: center;
+    color: black !important;
+}
+
+.container-fluid{
+    padding: 10px 10px 10px 10px;
+}
+
+.nav-link{
+    display: inline;
+    color: black !important;
+    text-transform: none;
+}
+
+#chose-page a{
+    text-decoration: none;
+}
+
+.ending-title{
+    color: black !important;
+}
